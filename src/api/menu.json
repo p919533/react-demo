@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "label": "仪表盘",
+        "parent_id": 0,
+        "path": "dashboard",
+        "filePath": "/dashboard",
+        "icon": "icon-yibiaopan"
+    },
+    {
+        "id": 2,
+        "label": "运营管理",
+        "parent_id": 0,
+        "path": "operations",
+        "icon": "icon-yunyingfenxi"
+    },
+    {
+        "id": 201,
+        "label": "品牌和SEO管理",
+        "parent_id": 2,
+        "path": "seo",
+        "filePath": "/seo"
+    },
+    {
+        "id": 208,
+        "label": "消息管理",
+        "parent_id": 2,
+        "path": "message",
+        "filePath": "/message"
+    },
+    {
+        "id": 209,
+        "label": "客服管理",
+        "parent_id": 2,
+        "path": "customer",
+        "filePath": "/customer"
+    },
+    {
+        "id": 3,
+        "label": "游戏管理",
+        "parent_id": 0,
+        "icon": "icon-iconfontyouxihudong",
+        "path": "game-manage"
+    },
+    {
+        "id": 301,
+        "label": "游戏管理1",
+        "parent_id": 3,
+        "path": "game-manage",
+        "filePath": "/game-manage"
+    },
+    {
+        "id": 306,
+        "label": "游戏统计",
+        "parent_id": 3,
+        "path": "game-report",
+        "filePath": "/game-report"
+    },
+    {
+        "id": 4,
+        "label": "会员管理",
+        "parent_id": 0,
+        "icon": "icon-huiyuan",
+        "path": "member"
+    },
+    {
+        "id": 401,
+        "label": "所有会员",
+        "parent_id": 4,
+        "path": "all-member",
+        "filePath": "/all-member"
+    }
+]
