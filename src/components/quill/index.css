@@ -1,0 +1,70 @@
+
+.ql-snow .ql-picker.ql-size .ql-picker-label::before, 
+.ql-snow .ql-picker.ql-size .ql-picker-item::before {
+  content: '12px';
+}
+/* 为 .ql-picker-label 和 .ql-picker-item 添加对应的字体大小内容 */
+.ql-picker-label[data-value="12px"]::before,
+.ql-picker-item[data-value="12px"]::before {
+  content: "12px" !important;
+}
+
+.ql-picker-label[data-value="14px"]::before,
+.ql-picker-item[data-value="14px"]::before {
+  content: "14px" !important;
+}
+
+.ql-picker-label[data-value="16px"]::before,
+.ql-picker-item[data-value="16px"]::before {
+  content: "16px" !important;
+}
+
+.ql-picker-label[data-value="18px"]::before,
+.ql-picker-item[data-value="18px"]::before {
+  content: "18px" !important;
+}
+
+.ql-picker-label[data-value="20px"]::before,
+.ql-picker-item[data-value="20px"]::before {
+  content: "20px" !important;
+}
+
+.ql-picker-label[data-value="22px"]::before,
+.ql-picker-item[data-value="22px"]::before {
+  content: "22px" !important;
+}
+
+.ql-picker-label[data-value="24px"]::before,
+.ql-picker-item[data-value="24px"]::before {
+  content: "24px" !important;
+}
+
+.ql-picker-label[data-value="26px"]::before,
+.ql-picker-item[data-value="26px"]::before {
+  content: "26px" !important;
+}
+
+.ql-picker-label[data-value="28px"]::before,
+.ql-picker-item[data-value="28px"]::before {
+  content: "28px" !important;
+}
+
+.ql-picker-label[data-value="30px"]::before,
+.ql-picker-item[data-value="30px"]::before {
+  content: "30px" !important;
+}
+
+.ql-picker-label[data-value="32px"]::before,
+.ql-picker-item[data-value="32px"]::before {
+  content: "32px" !important;
+}
+
+.ql-picker-label[data-value="34px"]::before,
+.ql-picker-item[data-value="34px"]::before {
+  content: "34px" !important;
+}
+
+.ql-picker-label[data-value="36px"]::before,
+.ql-picker-item[data-value="36px"]::before {
+  content: "36px" !important;
+}

@@ -1,10 +1,10 @@
-import { useEffect, useState, lazy, Suspense, useLayoutEffect } from 'react';
+import { useEffect, useState, Suspense, useLayoutEffect } from 'react';
 import {
     Outlet,
     useNavigate,
     useLocation
 } from 'react-router-dom';
-import { Layout, Flex, Badge, Progress, Select, Breadcrumb, theme, Dropdown, Menu } from 'antd';
+import { Layout, theme, Menu } from 'antd';
 import * as api from "@/api";
 import router, { routerAndTree } from "@/router";
 import { HistoryTag } from "./components";
@@ -22,9 +22,6 @@ const { useToken } = theme;
 
 
 export const BasicLayout = () => {
-    // const { tagsView, addTagsView, delTagsView }: any = useGlobal()
-    // const { lang, setLang }: any = useI18nStore();
-    // const { menusRouter, menusList, fetchSystemMenuList }: any = useSystemMenuList()
     const navigate = useNavigate()
     const [loading, setLoading] = useState(true);
     const [menus, setMenus] = useState([])
@@ -80,13 +77,11 @@ export const BasicLayout = () => {
                 <div className={styled.Logo} >
                     {/* <img src={Logo} alt="" /> */}
                 </div>
-
                 <Menu
                     mode="horizontal"
                     theme="dark"
                     items={menus}
                     onClick={(e: any) => {
-                        // setTagsView(e.item.props.handle)
                         navigate(e.item.props.route)
                     }}
                     className={styled.NavMenu}
